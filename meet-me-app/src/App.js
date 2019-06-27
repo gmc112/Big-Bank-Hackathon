@@ -14,13 +14,6 @@ function App() {
     let map = new Map();
     let qs = new Questionnaire();
     let table = new Table();
-    return (
-      <SideNavPage  />,
-      <Map />
-        //map.render()
-        qs.render()
-        //table.render()
-    );
 }
 
 export default App;
