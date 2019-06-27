@@ -22,6 +22,16 @@
 .App-link {
   color: #61dafb;
 }
+.overlays{
+  align: right;
+}
+.sidepane-content {
+  background-color: white;
+  height: 100vh
+}
+.navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0');
+}
 
 @keyframes App-logo-spin {
   from {

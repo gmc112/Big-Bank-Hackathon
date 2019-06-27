@@ -5,6 +5,7 @@ import Questionnaire from './Questionnaire'
 import Table from './Table.js'
 
 import Map from './Map.js';
+import SideNavPage from './sidebar.js'
 
 import './App.css';
 
@@ -14,6 +15,8 @@ function App() {
     let qs = new Questionnaire();
     let table = new Table();
     return (
+      <SideNavPage  />,
+      <Map />
         //map.render()
         qs.render()
         //table.render()
