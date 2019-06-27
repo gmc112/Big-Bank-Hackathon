@@ -81,7 +81,11 @@ export default class Map extends React.Component {
             style: 'mapbox://styles/mapbox/streets-v11',
             center: [-4.26164, 55.86043],
             zoom: 16,
+<<<<<<< HEAD
         });
+=======
+        },
+>>>>>>> 81dbd9195da6d9e23047e46a69473b74bd40cdee
 
 
         this.map.on('load', () => {
