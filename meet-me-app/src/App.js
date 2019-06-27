@@ -8,10 +8,8 @@ import './App.css';
 
 function App() {
 
-    let map = new Map();
-
     return (
-        map.render()
+        <Map />
     );
 }
 
