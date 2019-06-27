@@ -7,12 +7,10 @@ import SideNavPage from './sidebar.js'
 import './App.css';
 
 function App() {
-  let map = new Map();
-
-  return (
-    <SideNavPage  />,
-    map.render()
-  );
+    return (
+      <SideNavPage  />,
+      <Map />
+    );
 }
 
 export default App;
