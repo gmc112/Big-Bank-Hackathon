@@ -10,7 +10,6 @@ export default class Map extends React.Component {
             latitude: 55.86043,
             longitude: -4.26164,
             zoom: 16,
-            style: 'mapbox://styles/venio/cje3bx7jm50yj2rly99cmjt33',
         },
 
     };
