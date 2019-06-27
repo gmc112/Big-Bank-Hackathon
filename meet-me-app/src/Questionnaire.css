@@ -1,0 +1,31 @@
+html{
+    height:100%;
+    width:100%;
+}
+
+.Question{
+
+    margin-left:23%;
+    margin-top: 20%;
+    margin-right:22%;
+    position: center;
+    alignment: center;
+    border: 0.5vh solid #5e697a;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding-top: 4%;
+    display: inline-block;
+}
+
+button {
+    width: 49%;
+    margin-top: 10%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom:1%;
+    padding: 10%;
+    background-color: #5e697a;
+    color: white;
+    border: none;
+}
