@@ -7,6 +7,7 @@
     "csstools": "^0.1.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-map-gl": "^5.0.3",
     "react-scripts": "3.0.1"
   },
   "scripts": {

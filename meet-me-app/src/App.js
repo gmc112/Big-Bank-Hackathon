@@ -1,15 +1,18 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
+import {Component} from 'react';
+import ReactMapGL, {Marker, Popup} from 'react-map-gl';
+import Map from './Map.js'
+
 import './App.css';
 
 function App() {
+  let map = new Map();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello
-      </header>
-    </div>
+    map.render()
   );
 }
+
 
 export default App;
