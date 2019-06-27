@@ -82,7 +82,7 @@ export default class Map extends React.Component {
 
     render() {
         return (
-            <div id="map-container" style={{"height": "500px", "width": "500px"}}>
+            <div id="map-container">
             </div>
         );
     }
