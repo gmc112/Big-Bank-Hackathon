@@ -1,26 +1,39 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
+import {Component} from 'react';
+import ReactMapGL, {Marker, Popup} from 'react-map-gl';
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    let map = new Map();
+
+    return (
+        map.render()
+    );
+}
+
+class Map extends Component {
+
+    state = {
+        viewport: {
+            width: 400,
+            height: 400,
+            latitude: 37.7577,
+            longitude: -122.4376,
+            zoom: 8
+        }
+    };
+
+    render() {
+        return (
+            <ReactMapGL
+                {...this.state.viewport}
+                onViewportChange={(viewport) => this.setState({viewport})}
+            />
+        );
+    }
 }
 
 export default App;
