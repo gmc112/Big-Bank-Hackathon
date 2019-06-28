@@ -112,6 +112,7 @@ export default class Questionnaire extends React.Component {
         let div = document.getElementById('cost');
         if (div.style.display !== 'none') {
             div.style.display = 'none';
+            document.getElementById("answer").style.display = 'block';
         }
         else {
             div.style.display = 'block';
@@ -167,6 +168,8 @@ export default class Questionnaire extends React.Component {
                    <button value="£££"onClick={this.setCost}>£££</button>
                    <button value="noPreference"onClick={this.setCost}>No Preference</button>
                </div>
+
+               <div id="answer" className="Answer" style={hiddenQStyle}>You should try Panko at 9 Bothwell Street, Glasgow G2 6NL </div>
            </div>
        );
 

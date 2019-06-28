@@ -9,11 +9,6 @@ import SideNavPage from './sidebar.js'
 
 import './App.css';
 
-function App() {
-
-    let map = new Map();
-    let qs = new Questionnaire();
-    let table = new Table();
-}
+function App() {}
 
 export default App;

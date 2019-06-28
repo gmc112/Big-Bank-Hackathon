@@ -7,7 +7,7 @@ export default class MapDif extends Component {
     state = {
         viewport: {
             width: "100%",
-            height: 400,
+            height: "50vh",
             latitude: 55.8607,
             longitude: -4.2605,
             zoom: 14
